@@ -1,0 +1,9 @@
+name: serverless
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - pip
+  - pip:
+    - awscli
